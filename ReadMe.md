@@ -1,4 +1,4 @@
-There are data and codes for analyze house price of Taipei City and New Taipei City.
+There are data and codes for analyzing house price of Taipei City and New Taipei City.
 
 # original data
 "0_taipei.csv" is the original data from website which is too big to push on github.
@@ -11,7 +11,9 @@ Both will be join for mechine learning.
 
 # mechine learning code
 "LinearRegression.ipynb" use LinearRegression for mechine learning. 
+"house.joblib" is the xgboost model I trained.
 "xgb.ipynb" use xgboost for mechine learning.
 "tp_xgb.ipynb" split "1_taipei_purged.csv" into Taipei City and New Taipei City then use xgboost for mechine learning.
 "make_web.ipynb" make a csv file with our prediction called "web_with_pred.csv".
 "check_diff.ipynb" make a csv file with 2021 real price and 2021 prediction for comparison.
+
